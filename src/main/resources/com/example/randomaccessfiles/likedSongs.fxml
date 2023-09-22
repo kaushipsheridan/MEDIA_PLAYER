@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane blendMode="OVERLAY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="701.0" style="-fx-background-color: #2FBD5A;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SecondMusicLibraryController">
+   <children>
+
+      <Button fx:id="backBtn" layoutX="142.0" layoutY="91.0" mnemonicParsing="false" onAction="#switchToBack" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #353639;" />
+      <ImageView blendMode="MULTIPLY" fitHeight="72.0" fitWidth="131.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Spotify-Logo-Black.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="MULTIPLY" fitHeight="25.0" fitWidth="31.0" layoutX="142.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../backIcon.png" />
+            </image>
+      </ImageView>
+      <Label layoutX="306.0" layoutY="85.0" prefHeight="43.0" prefWidth="131.0" text="Liked Songs" textAlignment="CENTER">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <VBox layoutX="159.0" layoutY="151.0" prefHeight="243.0" prefWidth="383.0" spacing="30.0">
+         <children>
+      
+            <Button fx:id="songOne" mnemonicParsing="false" onAction="#switchScreen" prefHeight="25.0" prefWidth="381.0" style="-fx-background-color: #353639;" textFill="#13dd4c">
+               <text>Song 1</text>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="119.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../../../songIcon.png" />
+                      </image>
+               </ImageView>
+               </graphic>
+            </Button>
+      
+            <Button fx:id="SongTwo" mnemonicParsing="false" prefHeight="25.0" prefWidth="381.0" style="-fx-background-color: #353639;" textFill="#13dd4c">
+               <text>Song 2</text>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="119.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../../../songIcon.png" />
+                      </image>
+               </ImageView>
+               </graphic>
+            </Button>
+      
+            <Button fx:id="SongThree" mnemonicParsing="false" prefHeight="25.0" prefWidth="381.0" style="-fx-background-color: #353639;" textFill="#13dd4c">
+               <text>Song 3</text>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="119.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@../../../songIcon.png" />
+                        </image>
+               </ImageView>
+               </graphic>
+            </Button>
+      
+            <Button fx:id="songFour" mnemonicParsing="false" prefHeight="25.0" prefWidth="381.0" style="-fx-background-color: #353639;" textFill="#13dd4c">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="119.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@../../../songIcon.png" />
+                        </image>
+               </ImageView>
+               </graphic>
+               <text>Song 4</text>
+            </Button>
+      
+            <Button fx:id="artistsBtn" mnemonicParsing="false" prefHeight="25.0" prefWidth="381.0" style="-fx-background-color: #353639;" textFill="#13dd4c">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="119.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@../../../songIcon.png" />
+                        </image>
+               </ImageView>
+               </graphic>
+               <text>Song 5</text>
+            </Button>
+         </children>
+      </VBox>
+      
+   </children>
+</AnchorPane>

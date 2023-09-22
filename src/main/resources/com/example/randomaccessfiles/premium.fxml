@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #2FBD5A;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.randomaccessfiles.premiumController">
+   <children>
+      <ImageView blendMode="MULTIPLY" fitHeight="77.0" fitWidth="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Spotify-Logo-Black.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="218.0" layoutY="39.0" text="Get Premium">
+         <font>
+            <Font name="Verdana Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="getStartedButton" layoutX="99.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleGetStartedButtonClick" prefHeight="31.0" prefWidth="498.0" style="-fx-background-color: #353639;" text="GET STARTED" textFill="#2fbd5a" />
+      <Label layoutX="69.0" layoutY="288.0" text="Why go premium?">
+        <font>
+            <Font name="Verdana Bold" size="16.0" />
+         </font>
+       </Label>
+      <HBox alignment="CENTER" layoutX="65.0" layoutY="91.0" prefHeight="117.0" prefWidth="563.0" spacing="90.0">
+         <children>
+            <ImageView fitHeight="136.0" fitWidth="135.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../silver.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../goldd.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../diamond.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <TextField layoutX="44.0" layoutY="344.0" prefHeight="31.0" prefWidth="307.0" style="-fx-background-color: #2FBD5A;" text="Download Music. Listen Anywhere">
+         <font>
+            <Font name="Verdana Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="51.0" layoutY="410.0" prefHeight="31.0" prefWidth="255.0" style="-fx-background-color: #2FBD5A;" text="Play any Song. Even on Mobile">
+         <font>
+            <Font name="Verdana Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="347.0" layoutY="410.0" prefHeight="31.0" prefWidth="248.0" style="-fx-background-color: #2FBD5A;" text="Unlimited Skips. Just hit next">
+         <font>
+            <Font name="Verdana Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="348.0" layoutY="341.0" prefHeight="37.0" prefWidth="340.0" style="-fx-background-color: #2FBD5A;" text="Ad-free Music Listening. Listen non-stop">
+         <font>
+            <Font name="Verdana Italic" size="15.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="56.0" fitWidth="47.0" layoutX="14.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../login.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="47.0" layoutX="14.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../login.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="47.0" layoutX="313.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../login.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="47.0" layoutX="313.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../login.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

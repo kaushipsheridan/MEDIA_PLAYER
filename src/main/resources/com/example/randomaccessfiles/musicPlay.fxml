@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #2FBD5A;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.randomaccessfiles.musicPlayController">
+   <children>
+      <ImageView blendMode="MULTIPLY" fitHeight="77.0" fitWidth="381.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Spotify-Logo-Black.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="214.0" layoutY="57.0" prefHeight="58.0" prefWidth="299.0" text="Plug into Nirvana...">
+         <font>
+            <Font name="Script MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <HBox layoutX="42.0" layoutY="132.0" prefHeight="119.0" prefWidth="617.0" spacing="130.0">
+         <children>
+            <ImageView fx:id="arcadeImageView" fitHeight="119.0" fitWidth="129.0" onMouseClicked="#onImageClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../arcade.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="partyImageView" fitHeight="119.0" fitWidth="129.0" onMouseClicked="#onImageClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../party.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="fadedImageView" fitHeight="119.0" fitWidth="144.0" onMouseClicked="#onImageClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../faded.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="42.0" layoutY="292.0" prefHeight="127.0" prefWidth="617.0" spacing="130.0">
+         <children>
+            <ImageView fx:id="calmImageView" fitHeight="119.0" fitWidth="129.0" onMouseClicked="#onImageClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../calm.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shapeImageView" fitHeight="119.0" fitWidth="129.0" onMouseClicked="#onImageClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../shape.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="happierImageView" fitHeight="119.0" fitWidth="129.0" onMouseClicked="#onImageClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../happier.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label alignment="CENTER" layoutX="42.0" layoutY="250.0" prefHeight="21.0" prefWidth="119.0" text="ARCADE" textAlignment="CENTER">
+         <font>
+            <Font name="Verdana Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="291.0" layoutY="409.0" prefHeight="21.0" prefWidth="126.0" text="SHAPE OF YOU" textAlignment="CENTER">
+         <font>
+            <Font name="Verdana Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="42.0" layoutY="409.0" prefHeight="21.0" prefWidth="119.0" text="CALM MUSIC" textAlignment="CENTER">
+         <font>
+            <Font name="Verdana Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="540.0" layoutY="250.0" prefHeight="21.0" prefWidth="119.0" text="FADED" textAlignment="CENTER">
+         <font>
+            <Font name="Verdana Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="291.0" layoutY="250.0" prefHeight="21.0" prefWidth="126.0" text="PARTY SONGS" textAlignment="CENTER">
+         <font>
+            <Font name="Verdana Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="540.0" layoutY="409.0" prefHeight="21.0" prefWidth="126.0" text="HAPPIER THAN EVER" textAlignment="CENTER">
+         <font>
+            <Font name="Verdana Bold Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
